@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: person-web
+  title: Person Web
+  description: Person web frontend
+  tags:
+    - node
+    - app-service
+spec:
+  type: website
+  owner: team-person
+  lifecycle: experimental
+  dependsOn:
+    - resource:default/azure-lz-2
+    - component:default/person-api
