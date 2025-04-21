@@ -11,6 +11,7 @@ spec:
   type: website
   owner: team-person
   lifecycle: experimental
+  consumesApis:
+    - person-api
   dependsOn:
     - resource:default/azure-lz-2
-    - component:default/person-api
