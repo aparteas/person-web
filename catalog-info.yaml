@@ -14,4 +14,4 @@ spec:
   consumesApis:
     - person-api
   dependsOn:
-    - resource:default/azure-lz-2
+    - resource:azure-lz-2
